@@ -52,6 +52,8 @@ Run:
 
 ```shell
 docker run -d --rm --name telnetd -p 2323:23 \
+  -e TELNET_USER=telnetuser \
+  -e TELNET_PWD=MySecret123! \
   telnetd-container
 ```
 
