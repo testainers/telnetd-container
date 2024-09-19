@@ -8,7 +8,8 @@ telnetd-container
 [![Licence](https://img.shields.io/github/license/testainers/telnetd-container?color=blue)](https://github.com/testainers/telnetd-container/blob/main/LICENCE)
 [![Build](https://img.shields.io/github/actions/workflow/status/testainers/telnetd-container/main.yml?branch=main)](https://github.com/testainers/telnetd-container/releases/latest)
 
-The small container image is designed specifically for testing TELNET connections.
+The small container image is designed specifically for testing TELNET
+connections.
 
 ## Funding
 
@@ -35,7 +36,6 @@ Obrigado pelo seu apoio contínuo!
 |----------|---------|---------|
 | --       | --      | --      |
 
-
 ## How to Use
 
 ---
@@ -61,7 +61,6 @@ Test:
 
 ```shell
 ```
-
 
 Access:
 
