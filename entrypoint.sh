@@ -7,12 +7,12 @@ if [ -z "$TELNET_USER" ]; then
 fi
 
 if [ -z "$TELNET_PWD" ]; then
-  export TELNET_PWD="VeryDifficult246!"
+  export TELNET_PWD="VeryDifficult"
 fi
 
 adduser -D "$TELNET_USER"
 
-passwd "$TELNET_USER" -d "$TELNET_PWD"
+echo "$TELNET_USER:$TELNET_PWD" | chpasswd
 
 ### Start telnetd.
 /usr/sbin/telnetd -F
