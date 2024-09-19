@@ -60,6 +60,7 @@ docker run -d --rm --name telnetd -p 2323:23 \
 Test:
 
 ```shell
+telnet 127.0.0.1 2323
 ```
 
 Access:
